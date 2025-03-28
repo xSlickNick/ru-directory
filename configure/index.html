@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Configure</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="#" />
+	<link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+	<div id="mainContainer">
+		<div id="imageLoc"; style="text-align: center;">
+			<img src="..\image files\Reitz Maybe.svg" width="30%">
+		</div>
+		<br><br>
+		<div id="locationSet">
+			
+			<br><br>
+				<span style="font-weight: 500;">Floor and Elevator Selection</span>
+				<br>
+			<div id="buttonBox">
+				
+					<div class="row">
+						<div class="column" style="background-color:#FFB695;">
+							<h2>Orange Elevator</h2>
+							<button class = "floorButton" id="orange3" onclick="RequestAuthorization()">3RD</button>
+							<br><br>
+							<button class = "floorButton"  id="orange2" onclick="RequestAuthorization()">2ND</button>
+							<br><br>
+							<button class = "floorButton"  id="orange1" onclick="RequestAuthorization()">1ST</button>
+							<br><br>
+							<button class = "floorButton"  id="orangeG" onclick="RequestAuthorization()">G</button>
+							<br><br>
+							<button class = "floorButton"  id="orangeL" onclick="RequestAuthorization()">LL</button>
+							<br><br>
+						</div>
+						<div class="column" style="background-color:#96D1CD;">
+							<h2>Blue Elevator</h2>
+							<button class = "floorButton"  id="blue6" onclick="RequestAuthorization()">6TH</button>
+							<br><br>
+							<button class = "floorButton"  id="blue5" onclick="RequestAuthorization()">5TH</button>
+							<br><br>
+							<button class = "floorButton" id="blue4" onclick="RequestAuthorization()">4TH</button>
+							<br><br>
+							<button class = "floorButton"  id="blue3" onclick="RequestAuthorization()">3RD</button>
+							<br><br>
+							<button class = "floorButton"  id="blue2" onclick="RequestAuthorization()">2ND</button>
+							<br><br>
+							<button class = "floorButton"  id="blue1" onclick="RequestAuthorization()">1ST</button>
+							<br><br>
+							<button class = "floorButton"  id="blueG" onclick="RequestAuthorization()">G</button>
+							<br><br>
+							<button class = "floorButton"  id="blueL" onclick="RequestAuthorization()">LL</button>
+							<br><br>
+						</div>
+					</div>
+
+				<br><br>
+			</div>
+		</div>
+		<div id="authorizationBox">
+			<label id="authorizationComplete">
+				<img src="logo.webp" width="60%">
+				<br>
+				<br>
+				<span style="font-weight: 500; font-size: 30px;">Authorization complete</span>
+				<br><br>
+			</label>
+			<button id="copyURLButton" onclick="CopyToURL()">Click to copy URL</button>
+			<br><br>
+		</div>
+	</div>
+</body>
+
+<script src="./script.js"></script>
