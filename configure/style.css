@@ -42,6 +42,7 @@ padding: 0px;
 align-content: center;
 height: 80%;
 margin: 15px;
+	border-radius: var(--corner-radius);
 }
 
 .row {
@@ -56,6 +57,7 @@ margin: 15px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: #eb0aff;
+
 }
 
 #locationSet{
@@ -64,6 +66,9 @@ margin: 15px;
 	align-items: center;
 	align-content: center;
 	background-color: #181818;
+	margin-right: 2%;
+	margin-left: 2%;
+	border-radius: var(--corner-radius);
 	
 }
 
@@ -74,7 +79,9 @@ margin: 15px;
 	text-align: center;
 }
 
-
+#buttonBox.row{
+	justify-content: center;
+}
 
 #authorizationBox {
 	background-color: #252525;
